@@ -1,61 +1,58 @@
-import { FEATURES } from '@/constants'
-import Image from 'next/image'
-import React from 'react'
+import { FEATURES } from '@/constants';
+import React from 'react';
 
 type FeatureItem = {
   title: string;
-  icon: string;
-  description: string;
-}
+  description?: string;
+  items?: string[];
+};
 
-const FeatureItem = ({ title, icon, description }: FeatureItem) => {
+const FeatureItem = ({ title, description, items }: FeatureItem) => {
   return (
-    <li className="flex w-full flex-1 flex-col items-start">
-      <div className="rounded-full p-4 lg:p-7 bg-green-50">
-        <Image src={icon} alt="map" width={28} height={28} />
-      </div>
-      <h2 className="bold-20 lg:bold-32 mt-5 capitalize">
+    <div className="flex w-full flex-1 flex-col items-start bg-white shadow-md p-6 rounded-lg mb-6">
+      <h2 className="bold-20 lg:bold-32 mt-5 capitalize text-gray-800">
         {title}
       </h2>
-      <p className="regular-16 mt-5 bg-white/80 text-gray-30 lg:mt-[30px] lg:bg-none">
-        {description}
-      </p>
-    </li>
-  )
+      {description && (
+        <p className="regular-16 mt-5 text-gray-700">
+          {description}
+        </p>
+      )}
+      {items && (
+        <ul className="list-disc list-inside mt-5 text-gray-700 space-y-2">
+          {items.map((item, i) => (
+            <li key={i}>{item}</li>
+          ))}
+        </ul>
+      )}
+    </div>
+  );
 };
 
 const Features = () => {
   return (
-    <section className="flex-col flexCenter overflow-hidden bg-feature-bg bg-center bg-no-repeat py-10">
-      <div className="max-container padding-container relative w-full flex justify-end">
-        <div className="flex flex-1 lg:min-h-[900px]">
-          <Image
-            src="/phone.png"
-            alt="phone"
-            width={440}
-            height={1000}
-            className="feature-phone"
-          />
-        </div>
-
+    <section className="flex-col flexCenter overflow-hidden bg-center bg-no-repeat py-10">
+      <div className="max-container padding-container relative w-full flex">
         <div className="z-20 flex w-full flex-col lg:w-[60%]">
-          <div className='relative'>
-            <h2 className="bold-40 lg:bold-64">Our Objectives</h2>
+          {/* Single Box Container */}
+          <div className="bg-white p-8 rounded-lg">
+            {/* Title */}
+            <h2 className="bold-40 lg:bold-64 text-gray-800 mb-10">Our Objectives</h2>
+
+            {/* List of Features */}
+            <ul className="space-y-4">
+              {FEATURES.map((feature, index) => (
+                <li key={index} className="text-gray-700">
+                  <h3 className="bold-20 lg:bold-24 text-gray-800">{feature.title}</h3>
+                  <p className="regular-16 mt-2 text-gray-600">{feature.description}</p>
+                </li>
+              ))}
+            </ul>
           </div>
-          <ul className="mt-10 grid gap-10 md:grid-cols-2 lg:mg-20 lg:gap-20">
-            {FEATURES.map((feature) => (
-              <FeatureItem 
-                key={feature.title}
-                title={feature.title} 
-                icon={feature.icon}
-                description={feature.description}
-              />
-            ))}
-          </ul>
         </div>
       </div>
     </section>
-  )
+  );
 };
 
 export default Features;

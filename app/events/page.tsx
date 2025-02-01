@@ -10,21 +10,23 @@ const ActivitiesPage = () => {
         </h1>
 
         {/* Focus Section */}
-        <div className="bg-white shadow-md p-6 rounded-lg mb-10">
-          <h2 className="text-xl font-semibold mb-2">Focus: Empowering rural women with disabilities.</h2>
-          <p className="text-lg text-gray-700">
-            Conducting special training programs for Physically Challenged Women (PCW) and also women in distress living in rural areas to promote the development opportunities.<br/>
-            Running and maintaining a Tailoring Unit for PCW enabling training and earning capacity and so far 65 challenged women have empowered by the Unit.<br/>
-            Running and maintaining a Free Stay Home for PCW coming from rural.<br/>
-            Running a Computer Centre giving Skill training in the System to secure immediate employment.<br/>
-            Arranging to provide Wheel chair, three wheeler scooter and crutches to PCW’s through service organizations.<br/>
-            To give counseling and referral service on employment and also other issues relating to Challenged Persons.<br/>
-            Thiyagam Self-Help group formed to encourage self employment.<br/>
-            Thiyagam Cultural team formed to spread happiness and awareness.<br/>
-            Thiyagam Narpanbu Kalvi Maiyam(TNKM) evening free tuition centres in 10 villages around Madurai is running to flower humaneness in students and to create Role Model citizens in every field of our society who will set an example in uprightness, integrity and humaneness.<br/>
-            Thiyagam solicits your wholehearted guidance, support and co-operation to reach the unreachable.<br/>
-            </p>
-        </div>
+          <div className="bg-white shadow-md p-6 rounded-lg mb-10">
+            <h2 className="text-xl font-semibold mb-2">
+              Focus: Empowering rural women with disabilities.
+            </h2>
+            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
+              <li>Conducting special training programs for Physically Challenged Women (PCW) and also women in distress living in rural areas to promote development opportunities.</li>
+              <li>Running and maintaining a Tailoring Unit for PCW, enabling training and earning capacity. So far, 65 challenged women have been empowered by the Unit.</li>
+              <li>Running and maintaining a Free Stay Home for PCW coming from rural areas.</li>
+              <li>Running a Computer Centre providing skill training in systems to secure immediate employment.</li>
+              <li>Arranging to provide wheelchairs, three-wheeler scooters, and crutches to PCWs through service organizations.</li>
+              <li>Providing counseling and referral services on employment and other issues relating to challenged persons.</li>
+              <li>Thiyagam Self-Help Group formed to encourage self-employment.</li>
+              <li>Thiyagam Cultural Team formed to spread happiness and awareness.</li>
+              <li>Thiyagam Narpanbu Kalvi Maiyam (TNKM) runs evening free tuition centers in 10 villages around Madurai to nurture humaneness in students and create role model citizens in every field of society.</li>
+              <li>Thiyagam solicits your wholehearted guidance, support, and cooperation to reach the unreachable.</li>
+            </ul>
+          </div>
 
         {/* Impact Section */}
         <h1 className="text-3xl font-bold  mb-4">
@@ -37,7 +39,7 @@ const ActivitiesPage = () => {
               <h3 className="text-xl font-semibold text-gray-800 mb-2">
                 {category.title}
               </h3>
-              <ul className="list-disc list-inside text-gray-700 space-y-2">
+              <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
                 {category.items.map((item, i) => (
                   <li key={i}>{item}</li>
                 ))}
