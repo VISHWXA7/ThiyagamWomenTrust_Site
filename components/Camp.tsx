@@ -46,7 +46,7 @@ const Camp = () => {
           subtitle="Thiyagam Self-Help group formed to encourage self employment. Thiyagam Cultural team formed to spread happiness and awareness......"
         />
         <CampSite 
-          backgroundImage="bg-bg-img-2"
+          backgroundImage="bg-bg-img-3"
           title="Awareness Cultural Group"
           subtitle="To give counseling and referral service on employment and also other issues relating to Challenged Persons......"
         />

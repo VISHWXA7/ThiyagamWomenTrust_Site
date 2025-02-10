@@ -9,9 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "next": "13.5.4",
+    "@sanity/icons": "^3.5.7",
+    "@sanity/image-url": "1",
+    "@sanity/vision": "3",
+    "@types/react-modal": "^3.16.3",
+    "encoding": "^0.1.13",
+    "next": "^13.5.8",
+    "next-sanity": "^9.8.54",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-modal": "^3.16.3",
+    "sanity": "3",
+    "styled-components": "6",
+    "supports-color": "^10.0.0"
   },
   "devDependencies": {
     "@types/node": "^20",

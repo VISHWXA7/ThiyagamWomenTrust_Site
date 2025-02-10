@@ -43,7 +43,7 @@ const Hero = () => {
         <a href="https://youtu.be/EPLY4VdXYig?si=hCJjG3Kpfxb6-u9P" target="_blank" rel="noopener noreferrer">
           <Button 
             type="button" 
-            title="How we work?" 
+            title="About us!" 
             icon="/play.svg"
             variant="btn_white_text" 
           />
