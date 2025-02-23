@@ -45,8 +45,8 @@ export default function AwardPage() {
   }, []);
 
   return (
-    <div className="container mt-10 mx-auto p-6 mb-10">
-
+    <div className="container mt-1 mx-auto p-6 mb-10">
+    <h1 className="text-4xl font-bold mb-16 text-center">Awards</h1>
       {loading ? (
         <p className="text-center">Loading awards...</p>
       ) : awards.length > 0 ? (

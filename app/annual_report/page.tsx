@@ -32,8 +32,8 @@ export default function AnnualReportPage() {
   });
 
   return (
-    <div className="container mt-10 mx-auto p-6 mb-10">
-      <h1 className="text-2xl font-bold mb-6 text-center">Annual Reports</h1>
+    <div className="container mt-4 mx-auto p-6 mb-10">
+      <h1 className="text-4xl font-bold mb-16 text-center">Annual Reports</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {/* Render annual reports */}
         {reports.length > 0 ? (
@@ -48,7 +48,7 @@ export default function AnnualReportPage() {
                   href={report.pdf}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-blue-500 underline"
+                  className="text-purple-80 underline"
                 >
                   View PDF
                 </a>

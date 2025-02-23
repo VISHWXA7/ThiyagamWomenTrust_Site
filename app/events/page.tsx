@@ -1,17 +1,17 @@
 import React from "react";
 import { impactCategories } from "@/constants";
 
-const ActivitiesPage = () => {
+const eventsPage = () => {
   return (
     <div className="min-h-screen text-gray-900">
       <div className="max-w-5xl mx-auto p-6">
-        <h1 className="text-3xl font-bold  mb-6">
+        <h1 className="text-4xl font-bold mt-5 text-purple-80 mb-6 text-center">
           Thiyagam - Activities at a glance
         </h1>
 
         {/* Focus Section */}
           <div className="bg-white shadow-md p-6 rounded-lg mb-10">
-            <h2 className="text-xl font-semibold mb-2">
+            <h2 className="text-xl font-semibold mb-2 text-purple-80">
               Focus: Empowering rural women with disabilities.
             </h2>
             <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
@@ -29,14 +29,14 @@ const ActivitiesPage = () => {
           </div>
 
         {/* Impact Section */}
-        <h1 className="text-3xl font-bold  mb-4">
+        <h1 className="text-3xl font-bold mb-4 text-purple-80">
         Impact - 2008-09
         </h1>
         <div className="bg-white shadow-md p-6 rounded-lg mt-6 mb-10">
 
           {impactCategories.map((category, index) => (
             <div key={index} className="mb-6">
-              <h3 className="text-xl font-semibold text-gray-800 mb-2">
+              <h3 className="text-xl font-semibold text-purple-80 mb-2">
                 {category.title}
               </h3>
               <ul className="list-disc list-inside text-gray-700 space-y-2 text-justify">
@@ -52,4 +52,4 @@ const ActivitiesPage = () => {
   );
 };
 
-export default ActivitiesPage;
+export default eventsPage;

@@ -42,7 +42,8 @@ export default function GalleryPage() {
   });
 
   return (
-    <div className="container mt-10 mx-auto p-8 mb-10">
+    <div className="container mt-1 mx-auto p-8 mb-10">
+       <h1 className="text-5xl font-bold mb-16 text-center">Gallery</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {/* Render gallery items */}
         {gallery.length > 0 ? (

@@ -28,6 +28,9 @@ module.exports = {
         yellow: {
           50: '#FEC601',
         },
+        purple: {
+          80: '#7d287e', // Added your custom purple color
+        },
       },
       backgroundImage: {
         'bg-img-1': "url('/ACG.png')",

@@ -1,13 +1,20 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/', key: 'home', label: 'Home' },
   { href: '/activities', key: 'activities', label: 'Activities' },
   { href: '/events', key: 'events', label: 'Events' },
-  { href: '/awards', key: 'awards', label: 'Awards' },
-  { href: '/gallery', key: 'gallery', label: 'Gallery' },
-  { href: '/annual_report', key: 'annual Report', label: 'Annual Report' },
-  { href: '#contact-us', key: 'contact_us', label: 'Contact Us' },
+  { 
+    key: 'resources', 
+    label: 'Resources', 
+    subLinks: [
+      { href: '/awards', key: 'awards', label: 'Awards' },
+      { href: '/gallery', key: 'gallery', label: 'Gallery' },
+      { href: '/annual_report', key: 'annual_report', label: 'Annual Report' },
+    ]
+  },
+  { href: '/contact', key: 'contact_us', label: 'Contact' },
 ];
+
+
 
 // FEATURES SECTION
 export const FEATURES = [
@@ -69,8 +76,6 @@ export const FOOTER_LINKS = [
     title: 'Learn More',
     links: [
       'About Thiyagam',
-      'Programs & services',
-      'Future palns',
       'Contact Us',
     ],
   },
@@ -84,7 +89,7 @@ export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
     { label: 'Landline', value: '04652-2602195' },
-    { label: 'Landline', value: '+91-9629625517, +91-7092590095' },
+    { label: 'Phone', value: '+91-9629625517, +91-7092590095' },
     { label: 'Email Address', value: 'challengedwomen@gmail.com' },
   ],
 };
