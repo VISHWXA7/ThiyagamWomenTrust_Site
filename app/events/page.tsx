@@ -5,7 +5,7 @@ const eventsPage = () => {
   return (
     <div className="min-h-screen text-gray-900">
       <div className="max-w-5xl mx-auto p-6">
-        <h1 className="text-4xl font-bold mt-5 text-purple-80 mb-6 text-center">
+        <h1 className="text-4xl font-bold mt-5 mb-6 text-center">
           Thiyagam - Activities at a glance
         </h1>
 
@@ -29,7 +29,7 @@ const eventsPage = () => {
           </div>
 
         {/* Impact Section */}
-        <h1 className="text-3xl font-bold mb-4 text-purple-80">
+        <h1 className="text-3xl font-bold mb-4">
         Impact - 2008-09
         </h1>
         <div className="bg-white shadow-md p-6 rounded-lg mt-6 mb-10">

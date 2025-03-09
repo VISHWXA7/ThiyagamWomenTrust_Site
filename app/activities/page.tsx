@@ -3,7 +3,7 @@ import React from 'react';
 const Page = () => {
   return (
     <div className='max-w-7xl mx-auto p-6 min-h-screen'>
-      <h1 className='text-4xl font-extrabold mb-10 mt-5 text-center text-purple-80'>Programs & Services</h1>
+      <h1 className='text-4xl font-extrabold mb-10 mt-5 text-center'>Programs & Services</h1>
       
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-10'>
         <section className='bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow'>
@@ -27,7 +27,7 @@ const Page = () => {
         </section>
       </div>
 
-      <h1 className='text-4xl font-extrabold mb-10 mt-16 text-center text-purple-80'>Thiyagam Narpanpu Kalvi Maiyam</h1>
+      <h1 className='text-4xl font-extrabold mb-10 mt-16 text-center'>Thiyagam Narpanpu Kalvi Maiyam</h1>
       <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-10'>
         <section className='bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow'>
           <h2 className='text-2xl font-semibold mb-3 text-purple-80'>Village evening tuition centres</h2>
@@ -48,7 +48,7 @@ const Page = () => {
         </section>
       </div>
         <section className='bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow'>
-          <h1 className="text-3xl font-bold mb-4 text-purple-80">
+          <h1 className="text-3xl font-bold mb-4">
             Gratitude to Nature - Tree Planting
           </h1>
           <p>Thiyagam Friends Circle is nothing but a place of differently abled women to share their learning experiences there by gaining new knowledge and skills. Experienced and trained on various departments guiding others with the principle of “Evolve” and “Enable”. It acts as a source of inspiration from the “developed disabled women” to the “aspiring disabled women”.</p>
@@ -70,7 +70,7 @@ const Page = () => {
             </ul>
         </section>
         <section className='bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-shadow mt-5 mb-16'>
-          <h2 className='text-xl font-semibold mt-5 text-purple-80 mb-5'>PATH AHEAD:</h2>
+          <h2 className='text-xl font-semibold mt-5 mb-5'>PATH AHEAD:</h2>
             <p>
             No more weeping, no more blaming of any one up and doing it is time to arise and awake and stop not till the goal of economic independence of PCW achieved. Mere economic independence without having faith in values of life will never result in contented life. All our efforts will go along with infusing positive approach in PCW by following cardinal values of life.
             </p><br/>
