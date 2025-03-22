@@ -33,7 +33,7 @@ export default function AnnualReportPage() {
 
   return (
     <div className="container mt-4 mx-auto p-6 mb-10">
-      <h1 className="text-4xl font-bold mb-16 text-center">Annual Reports</h1>
+      <h1 className="text-5xl font-bold mb-16 text-center">Annual Reports</h1>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {/* Render annual reports */}
         {reports.length > 0 ? (

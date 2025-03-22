@@ -1,17 +1,24 @@
 // NAVIGATION
 export const NAV_LINKS = [
-  { href: '/activities', key: 'activities', label: 'Activities' },
-  { href: '/events', key: 'events', label: 'Events' },
+  { href: '/', key: 'home', label: 'Home' },
+  { 
+    key: 'about', 
+    label: 'About', 
+    subLinks: [
+      { href: '/activities', key: 'activities', label: 'Activities' },
+      { href: '/events', key: 'events', label: 'Events' }
+    ]
+  },
   { 
     key: 'resources', 
     label: 'Resources', 
     subLinks: [
       { href: '/awards', key: 'awards', label: 'Awards' },
       { href: '/gallery', key: 'gallery', label: 'Gallery' },
-      { href: '/annual_report', key: 'annual_report', label: 'Annual Report' },
+      { href: '/annual_report', key: 'annual_report', label: 'Annual Report' }
     ]
   },
-  { href: '/contact', key: 'contact_us', label: 'Contact' },
+  { href: '/contact', key: 'contact_us', label: 'Contact' }
 ];
 
 

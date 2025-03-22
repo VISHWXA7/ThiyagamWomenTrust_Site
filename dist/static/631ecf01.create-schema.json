@@ -1,0 +1,82 @@
+[
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "name": "year",
+                "type": "number"
+              }
+            ],
+            "type": "image"
+          }
+        ],
+        "name": "images",
+        "type": "array"
+      }
+    ],
+    "name": "gallery",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "of": [
+          {
+            "fields": [
+              {
+                "name": "image",
+                "type": "image"
+              },
+              {
+                "name": "description",
+                "type": "string"
+              },
+              {
+                "name": "year",
+                "type": "number"
+              }
+            ],
+            "type": "object"
+          }
+        ],
+        "name": "awardImages",
+        "type": "array"
+      }
+    ],
+    "name": "awards",
+    "type": "document"
+  },
+  {
+    "fields": [
+      {
+        "name": "title",
+        "type": "string"
+      },
+      {
+        "options": {
+          "accept": ".pdf"
+        },
+        "name": "pdf",
+        "type": "file",
+        "title": "PDF File"
+      }
+    ],
+    "name": "annualReport",
+    "type": "document"
+  }
+]
