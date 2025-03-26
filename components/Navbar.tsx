@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="flexBetween max-container padding-container relative z-30 py-5 h-[70px] mt-3">
       {/* Logo */}
       <Link href="/">
-        <Image src="/logo.svg" alt="logo" width={210} height={35} />
+        <Image src="/logo.svg" alt="logo" width={210} height={35} className="-ml-5"/>
       </Link>
 
       {/* Desktop Navigation */}

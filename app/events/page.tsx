@@ -14,7 +14,7 @@ const eventsPage = () => {
             <h2 className="text-xl font-semibold mb-2 text-purple-80">
               Focus: Empowering rural women with disabilities.
             </h2>
-            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2">
+            <ul className="list-disc list-inside text-lg text-gray-700 space-y-2 text-justify">
               <li>Conducting special training programs for Physically Challenged Women (PCW) and also women in distress living in rural areas to promote development opportunities.</li>
               <li>Running and maintaining a Tailoring Unit for PCW, enabling training and earning capacity. So far, 65 challenged women have been empowered by the Unit.</li>
               <li>Running and maintaining a Free Stay Home for PCW coming from rural areas.</li>

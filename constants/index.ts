@@ -95,9 +95,9 @@ export const FOOTER_LINKS = [
 export const FOOTER_CONTACT_INFO = {
   title: 'Contact Us',
   links: [
-    { label: 'Landline', value: '04652-2602195' },
-    { label: 'Phone', value: '+91-9629625517, +91-7092590095' },
-    { label: 'Email Address', value: 'challengedwomen@gmail.com' },
+    { label: 'Landline', value:'04652-2602195'},
+    { label: 'Phone', value: '+91-9629625517, +91-7092590095'},
+    { label: 'Email Address', value:'challengedwomen@gmail.com'},
   ],
 };
 

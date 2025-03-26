@@ -43,7 +43,7 @@ const ContactPage = () => {
 
       {/* Map and Global Office Section */}
       <section className="py-20 px-6 flex flex-col items-center mb-10">
-        <h2 className="text-xl text-purple-80 md:text-5xl font-bold text-center mb-16">
+        <h2 className="text-5xl text-purple-80 font-bold text-center mb-16">
           Our Location
         </h2>
           {/* Map */}

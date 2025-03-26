@@ -42,7 +42,7 @@ const Hero = () => {
               alt="Location"
               width={25}
               height={25}
-              className="rounded-md"
+              className="rounded-md ml-8"
             />
             <span>Our Location</span>
           </a>
