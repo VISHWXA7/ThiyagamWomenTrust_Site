@@ -13,7 +13,7 @@ const Hero = () => {
               Women Trust
             </h1>
             <p className="mt-4 text-sm leading-relaxed text-gray-600 md:text-base lg:mt-6 lg:max-w-[500px]">
-              Thiyagam Women Trust (Regd No. 900/06) is dedicated to empowering physically challenged rural women by providing self-employment opportunities and fostering independence. With a focus on positivity and gratitude, the trust helps them embrace life’s challenges with confidence and determination.
+              Thiyagam Women Trust is dedicated to empowering physically challenged rural women by providing self-employment opportunities and fostering independence. With a focus on positivity and gratitude, the trust helps them embrace life’s challenges with confidence and determination.
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Hero = () => {
             href="https://maps.app.goo.gl/N2GVL3dDKx5PYf6k9"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-2 text-sm font-medium text-blue-600 hover:underline"
+            className="flex items-center gap-2 text-sm font-bold text-blue-600 hover:underline"
           >
             <img
               src="location.png"

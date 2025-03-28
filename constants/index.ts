@@ -82,13 +82,17 @@ export const FOOTER_LINKS = [
   {
     title: 'Learn More',
     links: [
-      'About Thiyagam',
-      'Contact Us',
+      { label: 'Activities', href: '/activities' },
+      { label: 'Events', href: '/events' },
+      { label: 'Contact Us', href: '/contact' },
     ],
   },
   {
     title: 'Media',
-    links: ['Awards', 'Gallery'],
+    links: [
+      { label: 'Awards', href: '/awards' },
+      { label: 'Gallery', href: '/gallery' },
+    ],
   },
 ];
 
@@ -104,10 +108,10 @@ export const FOOTER_CONTACT_INFO = {
 export const SOCIALS = {
   title: 'Social',
   links: [
-    '/facebook.svg',
-    '/instagram.svg',
-    '/twitter.svg',
-    '/youtube.svg',
+    { icon: '/youtube.svg', href: 'https://youtube.com/@thiyagamwomentrustprogram2913?si=sKRtV5moqU-l1aI0' },
+    { icon: '/facebook.svg', href: 'https://facebook.com/' },
+    { icon: '/instagram.svg', href: 'https://instagram.com/yourpage' },
+    { icon: '/twitter.svg', href: 'https://twitter.com/' },
   ],
 };
 

@@ -8,8 +8,7 @@ const OurMission = () => {
         <h3 className="text-xl font-medium text-gray-500 uppercase tracking-wide">Our Commitment</h3>
         <h2 className="text-5xl font-extrabold mt-2 text-gray-900">Welcome to Thiyagam</h2>
         <p className="text-gray-600 max-w-3xl mx-auto mt-4 text-lg leading-relaxed">
-          Trust is a premier legal advisory firm dedicated to providing expert representation in all law-related services, ensuring justice and advocacy for all.
-        </p>
+        Thiyagam is a dedicated organization committed to serving communities, promoting social welfare, and driving positive change through advocacy and support.        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mt-16">
           {/* Story & History */}
